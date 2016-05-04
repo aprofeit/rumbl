@@ -18,7 +18,6 @@ defmodule Rumbl.Router do
 
     resources "/users", UserController, only: [:index, :show, :new, :create]
     get "/", PageController, :index
-    get "/loaderio-35e873a312e67f42df7459dc2210af7b", PageController, :loader
   end
 
   # Other scopes may use custom stacks.
